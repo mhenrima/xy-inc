@@ -14,6 +14,7 @@ Exemplo de JSON:
 
 Listar POI cadastrados: https://prova-xy-inc.herokuapp.com/poi
 
-Listar POI por proximidade: https://prova-xy-inc.herokuapp.com/poi/listaPoiProximo?x=VALOR&y=VALOR&distancia=VALOR
+Listar POI por proximidade: https://prova-xy-inc.herokuapp.com/poi/listaPoiProximo?x=?&y=?&distancia=?
+(No caminho acima, onde encontra as '?', deve ser colocado o valor de cada variavel)
 
 Para baixar o repositorio para o computador local: git clone https://github.com/mhenrima/xy-inc.git
