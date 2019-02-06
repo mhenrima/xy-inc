@@ -1,8 +1,11 @@
 # xy-inc
 INSTRUÇÕES
 
-É possivel realizar os testes dos serviços através do HEROKU, não sendo preciso baixar o projeto para a maquina local.
-Também foi utilizado o Swagger para não precisar de nenhum outro programa para realizar requisiçõs.
+Chamada dos serviços via Heroku e Swagger:
+
+
+Para realizar testes dos serviços sem a necessidade de importar o projeto.
+
 Basta acessar o link abaixo:
 
 https://prova-xy-inc.herokuapp.com/swagger-ui.html 
