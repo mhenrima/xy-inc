@@ -1,20 +1,27 @@
 # xy-inc
 INSTRUÇÕES
 
-É possivel realizar os testes dos serviços através do HEROKU, não sendo preciso baixar o projeto para a maquina local. 
+É possivel realizar os testes dos serviços através do HEROKU, não sendo preciso baixar o projeto para a maquina local.
+Também foi utilizado o Swagger para não precisar de nenhum outro programa para realizar requisiçõs.
+Basta acessar o link abaixo:
 
-Cadastrar POI: https://prova-xy-inc.herokuapp.com/poi
+https://prova-xy-inc.herokuapp.com/swagger-ui.html 
+
+
+Para realizar testes fora do HEROKU, deve-se baixar o repositorio para o computador local: git clone https://github.com/mhenrima/xy-inc.git 
+Realizar o import do mesmo no eclipse
+Executar mvn install
+Rodar a aplicação
+E chamar os serviços: 
+
+LISTAR POI's: http://localhost:8080/poi
+LISTAR POI's por proximidade: https://prova-xy-inc.herokuapp.com/poi/listaPoiProximo?x=VALOR&y=VALOR&distancia=VALOR   (No lugar de 'VALOR' colocar os valores de cada variavel).
+Cadastrar POI's: http://localhost:8080/poi
+
 Exemplo de JSON:
 {
-	"name": "araguari",
-	"x": 250,
-	"y": 170
+  "name": "string",
+  "x": 0,
+  "y": 0
 }
 
-
-Listar POI cadastrados: https://prova-xy-inc.herokuapp.com/poi
-
-Listar POI por proximidade: https://prova-xy-inc.herokuapp.com/poi/listaPoiProximo?x=?&y=?&distancia=?
-(No caminho acima, onde encontra as '?', deve ser colocado o valor de cada variavel)
-
-Para baixar o repositorio para o computador local: git clone https://github.com/mhenrima/xy-inc.git
