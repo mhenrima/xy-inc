@@ -14,7 +14,7 @@ import org.mockito.Mock;
 import org.mockito.Spy;
 import org.mockito.junit.MockitoJUnitRunner;
 
-import com.marcelo.prova.DAO.PoiDAO;
+import com.marcelo.prova.repository.PoiDAO;
 import com.marcelo.prova.service.PoiServiceControl;
 
 @RunWith(MockitoJUnitRunner.class)

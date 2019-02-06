@@ -5,8 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.marcelo.prova.DAO.PoiDAO;
 import com.marcelo.prova.model.Poi;
+import com.marcelo.prova.repository.PoiDAO;
 
 @Service
 public class PoiServiceControl {

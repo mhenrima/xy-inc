@@ -17,8 +17,8 @@ import org.springframework.mock.web.MockHttpServletRequest;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
-import com.marcelo.prova.DAO.PoiDAO;
 import com.marcelo.prova.model.Poi;
+import com.marcelo.prova.repository.PoiDAO;
 import com.marcelo.prova.service.PoiServiceControl;
 
 @RunWith(MockitoJUnitRunner.class)

@@ -1,4 +1,4 @@
-package com.marcelo.prova.DAO;
+package com.marcelo.prova.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
