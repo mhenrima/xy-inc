@@ -14,7 +14,7 @@ import org.mockito.Mock;
 import org.mockito.Spy;
 import org.mockito.junit.MockitoJUnitRunner;
 
-import com.marcelo.prova.repository.PoiDAO;
+import com.marcelo.prova.repository.PoiRepository;
 import com.marcelo.prova.service.PoiServiceControl;
 
 @RunWith(MockitoJUnitRunner.class)
@@ -27,7 +27,7 @@ public class PoiServiceControlTest {
 	private List<Poi> listPoi = new ArrayList<>();
 	
 	@Mock
-	private PoiDAO poiDAO; 
+	private PoiRepository poiDAO; 
 	
 	@Test
 	public void test4ListaPoi() {

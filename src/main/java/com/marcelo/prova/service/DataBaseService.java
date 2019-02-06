@@ -7,12 +7,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.marcelo.prova.model.Poi;
-import com.marcelo.prova.repository.PoiDAO;
+import com.marcelo.prova.repository.PoiRepository;
 
 @Service
 public class DataBaseService {
 	@Autowired
-	private PoiDAO poiDao;
+	private PoiRepository poiDao;
 	
 	public void instantiateTestDatabase() throws ParseException {
 

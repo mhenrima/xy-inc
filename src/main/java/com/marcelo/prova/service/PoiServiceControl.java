@@ -6,13 +6,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.marcelo.prova.model.Poi;
-import com.marcelo.prova.repository.PoiDAO;
+import com.marcelo.prova.repository.PoiRepository;
 
 @Service
 public class PoiServiceControl {
 
 	@Autowired 
-	private PoiDAO poiDAO; 
+	private PoiRepository poiDAO; 
 	
 	public List<Poi> listaPoi() {
 		return poiDAO.findAll();

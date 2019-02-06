@@ -18,7 +18,7 @@ import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
 import com.marcelo.prova.model.Poi;
-import com.marcelo.prova.repository.PoiDAO;
+import com.marcelo.prova.repository.PoiRepository;
 import com.marcelo.prova.service.PoiServiceControl;
 
 @RunWith(MockitoJUnitRunner.class)
@@ -31,7 +31,7 @@ public class PoiResourceTest {
 	PoiServiceControl poiServiceControl;
 	
 	@Mock
-	PoiDAO poiDAO; 
+	PoiRepository poiDAO; 
 	
 	
 	
