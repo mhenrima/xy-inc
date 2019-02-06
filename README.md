@@ -7,8 +7,10 @@ Basta acessar o link abaixo:
 
 https://prova-xy-inc.herokuapp.com/swagger-ui.html 
 
+______________________________________________________________________________________________
 
 Para realizar testes fora do HEROKU, deve-se baixar o repositorio para o computador local: 
+
 git clone https://github.com/mhenrima/xy-inc.git 
 
 
