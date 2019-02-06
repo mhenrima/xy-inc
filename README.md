@@ -12,7 +12,7 @@ https://prova-xy-inc.herokuapp.com/swagger-ui.html
 
 ______________________________________________________________________________________________
 
-Para realizar os testes fora local:
+Para realizar os testes local:
 
 git clone https://github.com/mhenrima/xy-inc.git 
 
