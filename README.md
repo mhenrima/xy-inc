@@ -48,3 +48,12 @@ Exemplo de JSON:
   "y": 0
 }
 
+
+
+INFORMAÇÕES:
+
+DATABASE: H2
+
+COVERAGE: 98,5%
+
+					    	 
