@@ -30,10 +30,11 @@ public class Poi {
 
 	@NotNull(message = "Valor Obrigatorio")
 	Integer y;
-	
+
 	public Poi() {
-		
+
 	}
+
 	public Poi(Integer id, String name, Integer x, Integer y) {
 		super();
 		this.id = id;

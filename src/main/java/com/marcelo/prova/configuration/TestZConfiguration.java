@@ -14,8 +14,8 @@ public class TestZConfiguration {
 	private DataBaseService dbService;
 
 	@Bean
-	public boolean instantiateDatabase() throws ParseException {
-		dbService.instantiateTestDatabase();
+	public boolean populaBancoDeDados() throws ParseException {
+		dbService.populaBancoDeDados();
 		return true;
 	}
 }

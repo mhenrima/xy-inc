@@ -3,7 +3,6 @@ package com.marcelo.prova.configuration;
 import static springfox.documentation.builders.PathSelectors.regex;
 
 import java.util.ArrayList;
-import java.util.Collection;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -28,21 +27,16 @@ public class SwaggerConfig {
 
 	}
 
-	
 	private ApiInfo metaInfo() {
-		
-	ApiInfo xyInfo = new ApiInfo(
-			"XY-INC",
-			"PROVA - LOCALIZAÇÃO DE PONTOS DE INTERESSE (POIs)",
-			"1.0",
-			"Terms Of Service",
-			new Contact("Marcelo Henrique Machado","https://www.linkedin.com/in/marcelo-henrique-machado-5278ab112/ ","marcelo.h.machado@hotmail.com"),
-			"",
-			"",
-			new ArrayList<VendorExtension>()
-			);
-	return xyInfo;
+
+		ApiInfo xyInfo = new ApiInfo("XY-INC", "PROVA - LOCALIZAÇÃO DE PONTOS DE INTERESSE (POIs)", "1.0",
+				"Terms Of Service",
+				new Contact("Marcelo Henrique Machado",
+						"https://www.linkedin.com/in/marcelo-henrique-machado-5278ab112/ ",
+						"marcelo.h.machado@hotmail.com"),
+				"", "", new ArrayList<VendorExtension>());
+		return xyInfo;
 
 	}
-	
+
 }
