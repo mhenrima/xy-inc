@@ -9,7 +9,7 @@ https://prova-xy-inc.herokuapp.com/swagger-ui.html
 
 ______________________________________________________________________________________________
 
-Para realizar testes fora do HEROKU, deve-se baixar o repositorio para o computador local: 
+Para realizar os testes fora local:
 
 git clone https://github.com/mhenrima/xy-inc.git 
 
@@ -17,10 +17,10 @@ git clone https://github.com/mhenrima/xy-inc.git
 Realizar o import do mesmo no eclipse
 
 
-Executar mvn install
+Executar comando mvn install
 
 
-Rodar a aplicação
+Executar a aplicação
 
 
 E chamar os serviços: 
@@ -30,6 +30,7 @@ LISTAR POI's: http://localhost:8080/poi
 
 LISTAR POI's por proximidade: 
 https://prova-xy-inc.herokuapp.com/poi/listaPoiProximo?x=VALOR&y=VALOR&distancia=VALOR 
+
 (No lugar de 'VALOR' colocar os valores de cada variavel).
 
 
