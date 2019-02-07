@@ -32,7 +32,7 @@ LISTAR POI's: http://localhost:8080/poi
 
 
 LISTAR POI's por proximidade: 
-https://prova-xy-inc.herokuapp.com/poi/listaPoiProximo?x=VALOR&y=VALOR&distancia=VALOR 
+http://localhost:8080/poi/listaPoiProximo?x=VALOR&y=VALOR&distancia=VALOR
 
 (No lugar de 'VALOR' colocar os valores de cada variavel).
 
@@ -42,12 +42,21 @@ Cadastrar POI's: http://localhost:8080/poi
 
 
 Exemplo de JSON:
+
 {
+
   "name": "string",
+  
   "x": 0,
+  
   "y": 0
+  
 }
 
+
+Para execução dos testes:
+
+Após imports realizados, executar as classes de teste via JUnit ou executar comando mvn test.
 _______________________________________________________________________________________________
 
 INFORMAÇÕES:
