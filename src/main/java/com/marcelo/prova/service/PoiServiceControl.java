@@ -1,5 +1,6 @@
 package com.marcelo.prova.service;
 
+import java.security.InvalidParameterException;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,6 +33,14 @@ public class PoiServiceControl {
 		if(poi.getName() == null) {
 			throw new NullPointerException("Eh obrigatorio o preenchimento do parametro NOME");
 		}
+		
+		if(poi.getX() < 0) {
+			throw new InvalidParameterException("O valor de X nao pode ser menor que 0");
+		}
+		if (poi.getY() < 0) {
+			throw new InvalidParameterException("O valor de Y nao pode ser menor que 0");
+		}
+		
 		return poiDAO.save(poi); 
 	}
 }
