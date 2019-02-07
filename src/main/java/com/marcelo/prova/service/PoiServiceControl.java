@@ -24,15 +24,15 @@ public class PoiServiceControl {
 		poi.setId(null);
 	
 		obj = "";
-		if(poi.getX() == null || poi.getX().equals(obj)) {
+		if(poi.getX() == null) {
 			throw new NullPointerException("Eh obrigatorio o preenchimento do parametro X");
 		}
 			
-		if(poi.getY() == null || poi.getY().equals(obj)){
+		if(poi.getY() == null){
 			throw new NullPointerException("Eh obrigatorio o preenchimento do parametro Y");
 		}
 		
-		if(poi.getName() == null || poi.getName() == obj) {
+		if(poi.getName() == null) {
 			throw new NullPointerException("Eh obrigatorio o preenchimento do parametro NOME");
 		}
 		
