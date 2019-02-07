@@ -14,7 +14,6 @@ public class PoiServiceControl {
 
 	@Autowired 
 	private PoiRepository poiDAO;
-	private String obj; 
 	
 	public List<Poi> listaPoi() {
 		return poiDAO.findAll();
@@ -23,7 +22,6 @@ public class PoiServiceControl {
 	public Poi cadastraPoi(Poi poi) {
 		poi.setId(null);
 	
-		obj = "";
 		if(poi.getX() == null) {
 			throw new NullPointerException("Eh obrigatorio o preenchimento do parametro X");
 		}
