@@ -1,4 +1,4 @@
-package com.marcelo.teste;
+package com.marcelo.test;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
