@@ -61,6 +61,6 @@ INFORMAÇÕES:
 
 DATABASE: H2
 
-COVERAGE: 98,5%
+COVERAGE: 95,8%
 
 					    	 
