@@ -20,7 +20,7 @@ git clone https://github.com/mhenrima/xy-inc.git
 realizar build maven: mvn clean install
 
 
-start da aplicação, utilizar Java 8: java -jar aplicacao.jar
+start da aplicação, utilizar Java 8.0 : java -jar testZ-0.0.1-SNAPSHOT.jar
 
 
 E chamar os serviços: 
