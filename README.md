@@ -12,18 +12,15 @@ https://prova-xy-inc.herokuapp.com/swagger-ui.html
 
 ______________________________________________________________________________________________
 
-Para realizar os testes local:
+Para realizar executar local:
 
 git clone https://github.com/mhenrima/xy-inc.git 
 
 
-Realizar o import do mesmo no eclipse
+realizar build maven: mvn clean install
 
 
-Executar comando mvn install
-
-
-Executar a aplicação
+start da aplicação, utilizar Java 8: java -jar aplicacao.jar
 
 
 E chamar os serviços: 
