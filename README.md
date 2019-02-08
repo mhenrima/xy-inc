@@ -20,7 +20,8 @@ git clone https://github.com/mhenrima/xy-inc.git
 realizar build maven: mvn clean install
 
 
-start da aplicação, utilizar Java 8.0 : java -jar testZ-0.0.1-SNAPSHOT.jar
+start da aplicação:
+na raiz do projeto: mvn spring-boot:run
 
 
 E chamar os serviços: 
